@@ -33,12 +33,13 @@ make install
 ## Running the app
 
 The app requires two files to run:
-1. A csv files with all detected metabolites. File must have columns for their `FeatureID`, `m/z` and `rt`.
+1. A csv files with all detected metabolites. File must have columns for their `FeatureID`, `mz` and `rt`.
 2. A csv file with at least 20 metabolites that have been previously identified. 
-File must have columns for their `FeatureID`, `m/z`, `rt`, and `pubchem_id`.
+File must have columns for their `FeatureID`, `mz`, `rt`, and `annot_id` (with PubChem IDs). Example files provided in the example folder.
 
 The app can be started by running:
 
 ```
+cd cmmrt_app/
 python app.py
 ```
