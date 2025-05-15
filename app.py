@@ -475,4 +475,4 @@ def download_image(n_clicks, fig_base64):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
