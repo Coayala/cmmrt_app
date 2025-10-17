@@ -14,3 +14,4 @@ dependencies:
   - lightgbm>=3.2.1
   - scikit-learn>=0.24.2
   - matplotlib>=3.3.3
+  - dash
