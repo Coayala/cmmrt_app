@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/983129775.svg)](https://doi.org/10.5281/zenodo.17826307)
+
 # Metabolite annotation based on RT prediction and projection
 The Dash app in this repository allows for the annotation of metabolites based
 on retention time prediction and projection, based on the method described in:
